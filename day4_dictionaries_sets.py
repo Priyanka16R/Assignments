@@ -1,0 +1,37 @@
+student={
+    "id":101,
+    "name":"Priya",
+    "Branch":"CS",
+}
+print(student.get("id"))
+student.update({"College":"UBDT"})
+print(student.keys())
+print(student.values())
+print(student.items())
+student.pop("Branch")
+print(student.items())
+print(student.popitem())
+print(student.items())
+student.update({"College":"SBC"})
+student.clear()
+print(student.items())
+print(student)
+
+print("-----------------SETS--------------")
+sets={123,"asd","bbf",654}
+print(sets)
+sets.add(676)
+sets.remove(654)
+print(sets)
+sets.discard(654)
+print(sets)
+sets.add("ramya")
+print(sets)
+sets.clear()
+print(sets)
+A={12,45,22,10}
+B={13,45,22,45}
+A.union(B)
+print(A)
+print(A.intersection(B))
+print(B.difference(A))
