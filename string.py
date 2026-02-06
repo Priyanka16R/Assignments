@@ -31,7 +31,6 @@ list2.sort()
 print(list2)
 c=list2.pop()
 print(c)
-print("_________numpy________")
 import numpy as np
 num=np.argmax(list2)
 print(num)
